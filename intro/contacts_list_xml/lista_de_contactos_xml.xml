@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<studentsInformation name="Información" version="1.0">
+	<title>Información Estudiantes</title>
+	<students>
+		<student name="Keylor" last_name="Soto" sec_last_name="Delgado">
+			<email>keylorsotod@gmail.com</email>
+			<address>Betania-Mercedes</address>
+			<hobbie id="1" class="hobbies">Video Juegos</hobbie>
+			<hobbie id="2" class="hobbies">Salir con Amigos</hobbie>
+			<others id="1" class="github">KeylexSD@github</others>
+			<number>84916815</number>
+		</student>
+		
+		<student name="David" last_name="Vargas" sec_last_name="Barrantes">
+			<email>david@david.com</email>
+			<address>En una piña debajo del mar</address>
+			<hobbie id="1" class="hobbies">Atrapar medusas</hobbie>
+			<number>12345678</number>
+		</student>
+		
+		<student name="Milen" last_name="Rodríguez" sec_last_name="Man">
+			<email>mimimi@gmail.com</email>
+			<address>San Pedro, San José, Costa Rica</address>
+			<hobbie id="1" class="hobbies">Lectura</hobbie>
+			<hobbie id="2" class="hobbies">crochet</hobbie>
+			<hobbie id="3" class="hobbies">cine</hobbie>
+			<hobbie id="4" class="hobbies">baile</hobbie>
+			<hobbie id="5" class="hobbies">pretilear</hobbie>
+			<others id="1" class="opinions">Expropien el transporte público</others>
+			<number>88993344</number>
+		</student>
+		
+		<student name="Elian" last_name="Orteaga">
+			<email>elian.ortega@ucr.ac.cr</email>
+			<address>Los Yoses</address>
+			<hobbie id="1" class="hobbies">Yoga</hobbie>
+			<others id="1" class="github">github.com/elianortega</others>
+			<number>84677657</number>
+		</student>
+		
+		<student name="Dylan" second_name="Gabriel" last_name="Tenorio" sec_last_name="Rojas">
+			<email>dylantr2001@gmail.com</email>
+			<address>San Sebastián</address>
+			<hobbie id="1" class="hobbies">Sufrir en UCR</hobbie>
+			<number>85805171</number>
+		</student>
+		
+		<student name="Eithel" last_name="Vega" sec_last_name="Robles">
+			<email>eitheljose12@gmail.com</email>
+			<address>Alajuela</address>
+			<hobbie id="1" class="hobbies">Jugar bola</hobbie>
+			<hobbie id="2" class="hobbies">Play</hobbie>
+			<others id="1" class="opinions">Me gustaría subir una montaña y comer pizza ahí ;)</others>
+			<number>60042272</number>
+		</student>
+
+		<student name="Cristian" last_name="Ortega" sec_last_name="Hurtado">
+			<email>cristian.ortegahurtado@ucr.ac.cr</email>
+			<address>Barrio Chino</address>
+			<hobbie id="1" class="hobbies">Gimnasio</hobbie>
+			<hobbie id="2" class="hobbies">Cocinar</hobbie>
+			<hobbie id="3" class="hobbies">Salir a comer</hobbie>
+			<hobbie id="4" class="hobbies">Tomar chill</hobbie>
+			<hobbie id="5" class="hobbies">Salidas en general (mientras menos pase en la casa mejor xd)</hobbie>
+			<hobbie id="6" class="hobbies">Jugar LOL en vacaciones</hobbie>
+			<number>86305604</number>
+		</student>
+		
+		<student name="Jimena" last_name="Gdur" sec_last_name="Vargas">
+			<email>xime.gdur01@hotmail.com</email>
+			<address>La Unión Cartago</address>
+			<hobbie id="1" class="hobbies">lectura</hobbie>
+			<number>84284848</number>
+		</student>
+
+		<student name="Erick" second_name="Andres" last_name="Chaves" sec_last_name="Robles">
+			<email>andevcr@gmail.com</email>
+			<address>Coronado, SJ, CR</address>
+			<hobbie id="1" class="hobbies">Escuchar música</hobbie>
+			<hobbie id="2" class="hobbies">Leer</hobbie>
+			<others id="1">mtg</others>
+			<number>88960574</number>
+		</student>
+		
+		<student name="Henry" second_name="Gabriel" last_name="Ledezma" sec_last_name="Vindas">
+			<email> henrylzma.ucr@gmail.com</email>
+			<address>Rohrmoser</address>
+			<hobbie id="1" class="hobbies">Fulbo</hobbie>
+			<hobbie id="2" class="hobbies">Cosplay</hobbie>
+			<hobbie id="3" class="hobbies">Jugar Zelda</hobbie>
+			<others id="1" class="github">KeylexSD@github</others>
+			<number>72000864</number>
+		</student>
+		
+		<student name="Gianfranco" last_name="Soto" sec_last_name="Palma">
+			<email> gianf1612@gmail.com</email>
+			<address>Sabana</address>
+			<hobbie id="1" class="hobbies">Video juegos</hobbie>
+			<hobbie id="2" class="hobbies">Hablar de video juegos con Eithel</hobbie>
+			<number>72460061</number>
+		</student>
+	</students>
+</studentsInformation>
