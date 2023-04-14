@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory>
+    <objects>
+        <object  class="company">
+            <name>ECCI</name>
+            <fixed>true</fixed>
+            <state>Bueno</state>
+            <activity>En uso</activity>
+            <in_charge>
+                <employee>1-0987-0123</employee>
+            </in_charge>
+            <structure>
+
+                <object class="classroom">
+                    <code>IF305</code>
+                    <fixed>true</fixed>
+                    <state>Dañado</state>
+                    <activity>En uso</activity>
+                    <in_charge>
+                        <employee>2-0981-0973</employee>
+                    </in_charge>
+                    <has>
+
+                        <object class="projector">
+                            <code>VB78082</code>
+                            <fixed>false</fixed>
+                            <state>Bueno</state>
+                            <activity>En uso</activity>
+                            <in_charge>
+                                <employee>2-0401-0303</employee>
+                            </in_charge>
+                        <object>
+
+                        <object class="desk">
+                            <code>ET130711</code>
+                            <fixed>false</fixed>
+                            <state>Dañado</state>
+                            <activity>Sin uso</activity>
+                            <in_charge>
+                                <employee>7-0811-0557</employee>
+                            </in_charge>
+                        <object>
+
+                    </has>
+                <object>
+
+                <object class="lab">
+                    <code>IF104</code>
+                    <fixed>true</fixed>
+                    <state>Bueno</state>
+                    <activity>En uso</activity>
+                    <in_charge>
+                        <employee>2-0401-0303</employee>
+                    </in_charge>
+                    <has>
+                        <object class="projector">
+                            <code>VB54403</code>
+                            <fixed>false</fixed>
+                            <state>Bueno</state>
+                            <activity>En uso</activity>
+                        <object>
+
+                        <object class="computer">
+                            <code>HP0302B</code>
+                            <fixed>false</fixed>
+                            <state>Bueno</state>
+                            <activity>En uso</activity>
+                            <responsible>
+                                <employee>2-0401-0303</employee>
+                                <employee>1-1111-0741</employee>
+                            </responsible>
+                            <external>
+                                <object class="hard_drive">
+                                    <code>WD213001</code>
+                                    <fixed>false</fixed>
+                                    <state>Dañado</state>
+                                    <activity>Sin uso</activity>
+                                    <detail>Parece tener sectores dañados</detail>
+                                <object>
+                            </external>
+                        <object>
+
+                    </has>
+                <object>
+
+            </structure>
+        <object>
+    </objects>
+
+    <contacts>
+        <information id="1-0987-0123">
+            <name>Gabriela Barrantes</name>
+            <charge>Directora</charge>
+            <email>gbarrantes@ecci.edu</email>
+        </information>
+
+        <information id="2-0981-0973">
+            <name>Oscar Porras</name>
+            <charge>Conserje</charge>
+        </information>
+            
+        <information id="2-0401-0303">
+            <name>Jose Alfaro</name>
+            <charge>Tecnico</charge>
+            <email>jalfaro@ecci.edu</email>
+        </information>
+
+        <information id="7-0811-0557">
+            <name>Alexis Acuña</name>
+            <charge>Conserje</charge>
+            <phone_number>8888-1285</phone_number>
+        </information>
+
+        <information id="1-1111-0741">
+            <name>Luis Loria</name>
+            <charge>TI & Professor</charge>
+            <phone_number>2511-1234</phone_number>
+            <email>lloria@ecci.edu</email>
+        </information>
+    </contacts>
+
+</inventory>
