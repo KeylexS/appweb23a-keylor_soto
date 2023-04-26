@@ -1,0 +1,83 @@
+h2
+{
+    color:rgb(0, 0, 0);
+}
+
+.Estudiante
+{
+    background-color: rgb(211, 212, 212);
+    border-radius: 2px;
+}
+
+.subtitulo
+{
+    color:purple;
+    font-family: cursive;
+    font-size: x-large;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.email:hover
+{
+    color:blue;
+}
+
+.email
+{
+    display: flex;
+    background: #cfcbb8;
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+#nombre:hover
+{
+    background-color: rgb(169, 0, 175);
+    transition: 2000ms;
+}
+
+#apellido:hover
+{
+    background-color: rgb(169, 0, 175);
+    transition: 2000ms;
+}
+
+#segNombre:hover
+{
+    background-color: rgb(169, 0, 175);
+    transition: 2000ms;
+}
+
+#segApellido:hover
+{
+    background-color: rgb(169, 0, 175);
+    transition: 2000ms;
+}
+
+.sAddress
+{
+    background: #cfcbb8;
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.hobbies
+{
+    border-bottom: solid 1px #f2f7f2;
+}
+
+p {
+    background: #c9f7ef;
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.Estudiantes
+{
+    background-color: darkgray;
+    font-family: Helvetica, sans-serif;
+}
