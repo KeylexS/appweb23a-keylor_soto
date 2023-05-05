@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <link href="ejemplo.css" rel="stylesheet" />
+    <meta name="author" content="Keylor Soto Delgado" />
+    <meta name="keywords" content="students, hobbies, Información, Estudiantes" />
+    <title> Información de Estudiantes </title>
+</head>
+
+<body>
+    <header>
+        <h2 class="Title">Información de Estudiantes</h2>
+    </header>
+    <nav>
+        <button onclick="showList()" id="list_view_buttom">Vista en Lista</button>
+        <button onclick="showTable()" id="table_view_buttom">Vista en Tabla</button>
+    </nav>
+    <main>
+        <ul id="Estudiantes"> 
+            <!--Estudiantes-->
+            <li class="Estudiante" id="Estudiante1">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre">Keylor</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido">Soto</p>
+                        <p id="segApellido">Delgado</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">keylorsotod@gmail.com</address>
+                        <address class="contact sAddress">Betania-Mercedes</address>
+                        <address class="contact github" id="g1" >KeylexSD@github.com</address>
+                        <p class="contact number">84916815</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="1" class="hobbies">Video Juegos</p>
+                        <p id="2" class="hobbies">Salir con amigos</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante2">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre1">David</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido1">Vargas</p>
+                        <p id="segApellido1">Barrantes</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">david@david.com</address>
+                        <address class="contact sAddress">En una piña debajo del mar</address>
+                        <p class="contact number">12345678</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="3" class="hobbies">Atrapar medusas</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante3">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre2">Milen</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido2">Rodríguez</p>
+                        <p id="segApellido2">Man</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">mimimi@gmail.com</address>
+                        <address class="contact sAddress">San Pedro, San José, Costa Rica</address>
+                        <p class="contact number">88993344</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="4" class="hobbies">Lectura</p>
+                        <p id="5" class="hobbies">crochet</p>
+                        <p id="6" class="hobbies">cine</p>
+                        <p id="7" class="hobbies">baile</p>
+                        <p id="8" class="hobbies">pretilear</p>
+                        <p id="9" class="opinions">Expropien el transporte público</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante4">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre3">Elian</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido3">Orteaga</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">elian.ortega@ucr.ac.cr</address>
+                        <address class="contact sAddress">Los Yoses</address>
+                        <p class="contact number">84677657</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="10" class="hobbies">Yoga</p>
+                        <p id="11" class="opinions">Expropien el transporte público</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante5">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre4">Dylan</p>
+                        <p id="segNombre2">Gabriel</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido4">Tenorio</p>
+                        <p id="segApellido3">Rojas</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">dylantr2001@gmail.com</address>
+                        <address class="contact sAddress">San Sebastián</address>
+                        <p class="contact number">85805171</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="12" class="hobbies">Sufrir en UCR</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante6">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre5">Eithel</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido5">Vega</p>
+                        <p id="segApellido4">Robles</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">eitheljose12@gmail.com</address>
+                        <address class="contact sAddress">Alajuela</address>
+                        <p class="contact number">60042272</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="13" class="hobbies">Jugar bola</p>
+                        <p id="14" class="hobbies">Play</p>
+                        <p id="15" class="opinions">Me gustaría subir una montaña y comer pizza ahí ;)</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante7">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre6">Cristian</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido6">Ortega</p>
+                        <p id="segApellido5">Hurtado</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">cristian.ortegahurtado@ucr.ac.cr</address>
+                        <address class="contact sAddress">Barrio Chino</address>
+                        <p class="contact number">86305604</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="16" class="hobbies">Gimnasio</p>
+                        <p id="17" class="hobbies">Cocinar</p>
+                        <p id="18" class="hobbies">Salir a comer</p>
+                        <p id="19" class="hobbies">Tomar chill</p>
+                        <p id="20" class="hobbies">Salidas en general (mientras menos pase en la casa mejor xd)</p>
+                        <p id="21" class="opinions">Jugar LOL en vacaciones</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante8">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre7">Jimena</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido7">Gdur</p>
+                        <p id="segApellido6">Vargas</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">xime.gdur01@hotmail.com</address>
+                        <address class="contact sAddress">La Unión Cartago</address>
+                        <p class="contact number">84284848</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="22" class="hobbies">lectura</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante9">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre8">Erick</p>
+                        <p id="segNombre1">Andres</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido8">Chaves</p>
+                        <p id="segApellido7">Robles</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">andevcr@gmail.com</address>
+                        <address class="contact sAddress">Coronado, SJ, CR</address>
+                        <p class="contact number">88960574</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="23" class="hobbies">Escuchar música</p>
+                        <p id="24" class="hobbies">Leer</p>
+                        <p id="25" class="hobbies">mtg</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante10">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre9">Henry</p>
+                        <p id="segNombre">Gabriel</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido9">Ledezma</p>
+                        <p id="segApellido8">Vindas</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">henrylzma.ucr@gmail.com</address>
+                        <address class="contact sAddress">Rohrmoser</address>
+                        <p class="contact number">72000864</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="26" class="hobbies">Fulbo</p>
+                        <p id="27" class="hobbies">Cosplay</p>
+                        <p id="28" class="hobbies">Jugar Zelda</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="Estudiante" id="Estudiante11">
+                <ul>
+                    <li>
+                        <p class="subtitulo">Nombre:</p>
+                        <p id="nombre10">Gianfranco</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Apellidos:</p>
+                        <p id="apellido10">Soto</p>
+                        <p id="segApellido9">Palma</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Direcciones:</p>
+                        <address class="contact email">gianf1612@gmail.com</address>
+                        <address class="contact sAddress">Sabana</address>
+                        <p class="contact number">72460061</p>
+                    </li>
+                    <li>
+                        <p class="subtitulo">Otros:</p>
+                        <p id="29" class="hobbies">Sabana</p>
+                        <p id="30" class="hobbies">Hablar de video juegos con Eithel</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+    <script type="text/javascript" src="ejemplo.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+.Title
+{
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-size: xx-large;
+}
+
+.Estudiante
+{
+    background-color: rgb(211, 212, 212);
+    border-radius: 2px;
+}
+
+.subtitulo
+{
+    color:purple;
+    font-family: cursive;
+    font-size: x-large;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.email:hover
+{
+    color:blue;
+}
+
+.github:hover
+{
+    color:blue;
+}
+
+.subtitulo:hover
+{
+    background-color: rgb(169, 0, 175);
+    color:white;
+    transition: 2000ms;
+}
+
+.contact
+{
+    background: #cfcbb8;
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.hobbies
+{
+    border-bottom: solid 1px #f2f7f2;
+}
+
+p {
+    background: #c9f7ef;
+    border-radius: 4px;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.Estudiantes
+{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: darkgray;
+}
+
+#list_view_buttom
+{
+    
+    background-color: #54d2db;
+    border: 1px solid var(--primaryBlack);
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    left: 3em;
+}
+
+#table_view_buttom
+{
+    background-color: #54d2db;
+    border: 1px solid var(--primaryBlack);
+    border-radius: 10px;
+    width: 10em;
+    height: 5em;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    left: 4em;
+}
+
+#list_view_buttom:hover
+{
+    background-color: #90d6db;
+}
+
+#table_view_buttom:hover
+{
+    background-color: #90d6db;
+}
