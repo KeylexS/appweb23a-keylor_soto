@@ -15,7 +15,10 @@ h2
     font-family: cursive;
     font-size: x-large;
     padding: 2rem;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 .email:hover
@@ -23,13 +26,9 @@ h2
     color:blue;
 }
 
-.email
+.github:hover
 {
-    display: flex;
-    background: #cfcbb8;
-    border-radius: 4px;
-    font-family: cursive;
-    padding: 1rem;
+    color:blue;
 }
 
 #nombre:hover
@@ -56,7 +55,7 @@ h2
     transition: 2000ms;
 }
 
-.sAddress
+.contact
 {
     background: #cfcbb8;
     border-radius: 4px;
