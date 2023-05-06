@@ -74,7 +74,7 @@ const data =
 function showList()
 {
     const contacts = document.getElementById('Estudiantes');
-    contacts.innerHTML = "";
+    contacts.innerHTML = '';
   
     if(contacts) {
         data.forEach(element => {
@@ -86,7 +86,6 @@ function showList()
          
             if (element.name) {
               name.innerHTML = element.name;
-              name.classList.add('texto-rojo');
               li.append(name);
             }
          
@@ -122,32 +121,32 @@ function showList()
 
 function showTable()
 {
-    let contacts = document.getElementById("Estudiantes");
-    contacts.innerHTML = "";
+    let contacts = document.getElementById('Estudiantes');
+    contacts.innerHTML = '';
 
     if(contacts){
         //table Head
-        const tableHead = document.createElement("tr");
-        const nameHead = document.createElement("th");
-        const numberHead = document.createElement("th");
-        const addressHead = document.createElement("th");
-        const hobbiesHead = document.createElement("th");
+        const tableHead = document.createElement('tr');
+        const nameHead = document.createElement('th');
+        const numberHead = document.createElement('th');
+        const addressHead = document.createElement('th');
+        const hobbiesHead = document.createElement('th');
 
-        nameHead.innerHTML = "Nombre";
-        nameHead.style.fontFamily = "sans-serif";
-        nameHead.style.fontSize = "2em";
+        nameHead.innerHTML = 'Nombre';
+        nameHead.style.fontFamily = 'sans-serif';
+        nameHead.style.fontSize = '2em';
 
-        numberHead.innerHTML = "Numero";
-        numberHead.style.fontFamily = "sans-serif";
-        numberHead.style.fontSize = "2em";
+        numberHead.innerHTML = 'Numero';
+        numberHead.style.fontFamily = 'sans-serif';
+        numberHead.style.fontSize = '2em';
 
-        addressHead.innerHTML = "Direcciones";
-        addressHead.style.fontFamily = "sans-serif";
-        addressHead.style.fontSize = "2em";
+        addressHead.innerHTML = 'Direcciones';
+        addressHead.style.fontFamily = 'sans-serif';
+        addressHead.style.fontSize = '2em';
 
-        hobbiesHead.innerHTML = "Hobbies";
-        hobbiesHead.style.fontFamily = "sans-serif";
-        hobbiesHead.style.fontSize = "2em";
+        hobbiesHead.innerHTML = 'Hobbies';
+        hobbiesHead.style.fontFamily = 'sans-serif';
+        hobbiesHead.style.fontSize = '2em';
 
         tableHead.append(nameHead);
         tableHead.append(numberHead);
@@ -158,30 +157,30 @@ function showTable()
 
         //Table body
         data.forEach(element => {
-            const tableRow = document.createElement("tr");
-            const name = document.createElement("td");
-            const number = document.createElement("td");
-            const address = document.createElement("td");
-            const hobbies = document.createElement("td");
+            const tableRow = document.createElement('tr');
+            const name = document.createElement('td');
+            const number = document.createElement('td');
+            const address = document.createElement('td');
+            const hobbies = document.createElement('td');
 
             if (element.name)
             {
                 name.innerHTML = element.name;
-                name.style.fontFamily = "sans-serif";
+                name.style.fontFamily = 'sans-serif';
                 tableRow.append(name);
             }
 
             if (element.number)
             {
                 number.innerHTML = element.number;
-                number.style.fontFamily = "sans-serif";
+                number.style.fontFamily = 'sans-serif';
                 tableRow.append(number);
             }
 
             if (element.address.length > 0)
             {
                 element.address.forEach(singleAddress => { 
-                    let addressData = document.createElement("p");
+                    let addressData = document.createElement('p');
                     addressData.innerHTML = singleAddress;
                     address.append(addressData);
                 });
@@ -191,7 +190,7 @@ function showTable()
             if (element.hobbies)
             {
                 element.hobbies.forEach(singleHobby => { 
-                    let hobbyData = document.createElement("p");
+                    let hobbyData = document.createElement('p');
                     hobbyData.innerHTML = singleHobby;
                     hobbies.append(hobbyData);
                 });
@@ -203,6 +202,6 @@ function showTable()
     }
     else
     {
-        console.log("Cannot find the element Estudiantes");
+        console.log('Cannot find the element Estudiantes');
     }
 };
