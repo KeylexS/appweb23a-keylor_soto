@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE inventory SYSTEM "inventory.dtd">
-<inventory>
+<inventory name="Inventario" version="1.0">
     <objects>
         <object  class="company">
             <name>ECCI</name>
@@ -10,6 +10,7 @@
             <in_charge>
                 <employee>1-0987-0123</employee>
             </in_charge>
+            
             <structure>
 
                 <object class="classroom">
@@ -30,7 +31,7 @@
                             <in_charge>
                                 <employee>2-0401-0303</employee>
                             </in_charge>
-                        <object>
+                        </object>
 
                         <object class="desk">
                             <code>ET130711</code>
@@ -40,10 +41,10 @@
                             <in_charge>
                                 <employee>7-0811-0557</employee>
                             </in_charge>
-                        <object>
+                        </object>
 
                     </has>
-                <object>
+                </object>
 
                 <object class="lab">
                     <code>IF104</code>
@@ -59,7 +60,7 @@
                             <fixed>false</fixed>
                             <state>Bueno</state>
                             <activity>En uso</activity>
-                        <object>
+                        </object>
 
                         <object class="computer">
                             <code>HP0302B</code>
@@ -77,15 +78,13 @@
                                     <state>Dañado</state>
                                     <activity>Sin uso</activity>
                                     <detail>Parece tener sectores dañados</detail>
-                                <object>
+                                </object>
                             </external>
-                        <object>
-
+                        </object>
                     </has>
-                <object>
-
+                </object>
             </structure>
-        <object>
+        </object>
     </objects>
 
     <contacts>
@@ -114,10 +113,9 @@
 
         <information id="1-1111-0741">
             <name>Luis Loria</name>
-            <charge>TI & Professor</charge>
+            <charge>TI <code>&amp;</code> Professor</charge>
             <phone_number>2511-1234</phone_number>
             <email>lloria@ecci.edu</email>
         </information>
     </contacts>
-
 </inventory>
