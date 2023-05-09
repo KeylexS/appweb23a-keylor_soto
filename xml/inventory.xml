@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
 <!DOCTYPE inventory SYSTEM "inventory.dtd">
 <inventory name="Inventario" version="1.0">
     <objects>
@@ -10,7 +10,7 @@
             <in_charge>
                 <employee>1-0987-0123</employee>
             </in_charge>
-            
+
             <structure>
 
                 <object class="classroom">
