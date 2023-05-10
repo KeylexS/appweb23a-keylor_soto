@@ -7,41 +7,46 @@
         <meta name="copyright" content="KeylexS"/>
         <meta name="keywords" content="personal, website, user" />
         <link rel="icon" type="image/x-icon" href="img/page_icon.ico" />
+        <link rel="stylesheet" type="text/css" href="../css/common.css"/>
         <title> Personal Website </title>
     </head>
 
     <body>
-        <header id="main-header">
-            <img alt="header-icon" src="img/header_icon.svg" width="100" height="80"/>
-            <h1 id="main-title">Keylor's Personal Website</h1>
-        </header>
-        
-        <nav id="site-menu">
-            <ul>
-                <li><a href="../index.xhtml">Inicio</a></li>
-                <li><a href="xhtml/about_me.xhtml">Sobre Mí</a></li>
-                <li><a href="xhtml/credits.xhtml">Créditos</a></li>
-                <li><a href="index.xhtml">XML</a></li>
-                <li><a href="xhtml/index.xhtml">(X)HTML</a></li>
-                <li><a href="css/">CSS</a></li>
-                <li><a href="js/">JavaScript</a></li>
-                <li><a href="php/">PHP</a></li>
-            </ul>
-        </nav>
-
-        <main id="main-content">
-            <article id="index-sections-xml">
-                <section id="xml">
-                    <img id="xml" alt="xml image" src="../img/xml.svg"  width="160" height="120"/>
-                    <h2 id="second-level-title">Contenido XML</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis facilis saepe at similique.<br/>
-                    Quo laborum voluptatibus repellat doloremque, velit quasi reiciendis aliquid vero, veniam fugiat alias sint at consequuntur eos.</p>
-                </section>
-            </article>
-        </main>
-
-        <footer id="main=footer">
-            <p> C(2023) Keylor Soto Delgado. Derechos Reservados. </p>
-        </footer>
+        <div id="wrapper">
+            <header id="main-header">
+                <img alt="header-icon" src="../img/header_icon.svg" width="100" height="80"/>
+                <h1 id="main-title">Keylor's Personal Website</h1>
+            </header>
+            
+            <nav id="site-menu">
+                <ul id="nav-list">
+                    <li class="li-option"><a class="nav-link" href="../index.xhtml">Inicio</a></li>
+                    <li class="li-option"><a class="nav-link" href="xhtml/about_me.xhtml">Sobre Mí</a></li>
+                    <li class="li-option"><a class="nav-link" href="xhtml/credits.xhtml">Créditos</a></li>
+                    <li class="li-option"><a class="nav-link" href="index.xhtml">XML</a></li>
+                    <li class="li-option"><a class="nav-link" href="../xhtml/index.xhtml">(X)HTML</a></li>
+                    <li class="li-option"><a class="nav-link" href="css/">CSS</a></li>
+                    <li class="li-option"><a class="nav-link" href="js/">JavaScript</a></li>
+                    <li class="li-option"><a class="nav-link" href="php/">PHP</a></li>
+                </ul>
+            </nav>
+    
+            <main id="main-content">
+                <article id="index-sections">
+                    <section class="content-entry" id="introduction">
+                        <br/>
+                        <a href="xml/index.xhtml"><img src="../img/xml.svg" alt="Sección XML" width="80" height="60"/></a>
+                        <h2 id="second-level-title">Contenido XML</h2>
+                        <p id="introduction-text">
+                            Contenido para la página XML.
+                        </p>
+                    </section>
+                </article>
+            </main>
+    
+            <footer id="main-footer">
+                <p> C(2023) Keylor Soto Delgado. Derechos Reservados. </p>
+            </footer>
+        </div>
     </body>
 </html>
