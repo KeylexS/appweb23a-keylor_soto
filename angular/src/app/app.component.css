@@ -1,0 +1,20 @@
+#AboutMe{
+    display: flex;
+    justify-content: center;
+}
+
+#Credits{
+    display: flex;
+    justify-content: center;
+}
+
+#Hobbies{
+    display: flex;
+    justify-content: center;
+}
+
+#AboutMeImg{
+    display: flex;
+    
+    justify-content: center;
+}
